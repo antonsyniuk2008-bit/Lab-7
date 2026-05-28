@@ -1,0 +1,146 @@
+```html
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TechShop</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+
+    <h1 class="logo">TechShop</h1>
+
+    <!-- Бургер -->
+    <button class="menu-toggle" aria-label="Відкрити меню">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+      >
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </button>
+
+    <!-- Навігація -->
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#">Головна</a></li>
+        <li><a href="#">Каталог</a></li>
+        <li><a href="#">Про нас</a></li>
+        <li><a href="#">Контакти</a></li>
+      </ul>
+    </nav>
+
+    <!-- Кошик -->
+    <button class="btn btn-cart">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        width="24"
+        height="24"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M2.25 3h1.386c.51 0 .955.343 1.087.835L5.76 7.5m0 0L7.5 15h9.75l1.5-7.5H5.76zm1.74 10.5a.75.75 0 100 1.5.75.75 0 000-1.5zm9 0a.75.75 0 100 1.5.75.75 0 000-1.5z"
+        />
+      </svg>
+      Кошик
+    </button>
+
+  </header>
+
+  <main class="page-layout">
+
+    <h2>Популярні товари</h2>
+
+    <section class="products">
+
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250" alt="Ноутбук">
+        <h3>Ноутбук</h3>
+        <p>Потужний ноутбук для навчання та роботи.</p>
+        <button class="btn">Купити</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250" alt="Смартфон">
+        <h3>Смартфон</h3>
+        <p>Сучасний смартфон з хорошою камерою.</p>
+        <button class="btn">Купити</button>
+      </div>
+
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250" alt="Навушники">
+        <h3>Навушники</h3>
+        <p>Бездротові навушники з чистим звуком.</p>
+        <button class="btn">Купити</button>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="footer">
+
+    <p>© 2026 TechShop</p>
+
+    <ul class="social-links">
+
+      <!-- Instagram -->
+      <li>
+        <a href="#">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7.75 2C4.574 2 2 4.574 2 7.75v8.5C2 19.426 4.574 22 7.75 22h8.5C19.426 22 22 19.426 22 16.25v-8.5C22 4.574 19.426 2 16.25 2h-8.5zm0 1.5h8.5A4.25 4.25 0 0120.5 7.75v8.5a4.25 4.25 0 01-4.25 4.25h-8.5A4.25 4.25 0 013.5 16.25v-8.5A4.25 4.25 0 017.75 3.5zm8.75 1a1 1 0 100 2 1 1 0 000-2zM12 7a5 5 0 100 10 5 5 0 000-10zm0 1.5A3.5 3.5 0 1112 15.5 3.5 3.5 0 0112 8.5z"
+            />
+          </svg>
+        </a>
+      </li>
+
+      <!-- Telegram -->
+      <li>
+        <a href="#">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M9.04 15.341L8.66 20.5c.55 0 .788-.236 1.074-.52l2.58-2.47 5.347 3.91c.98.54 1.67.257 1.934-.907l3.5-16.38c.31-1.45-.524-2.018-1.48-1.66L1.66 10.13c-1.42.55-1.4 1.34-.24 1.7l5.11 1.59L18.39 6.2c.56-.37 1.07-.165.65.205"
+            />
+          </svg>
+        </a>
+      </li>
+
+    </ul>
+
+  </footer>
+
+</body>
+</html>
+```
+
+
