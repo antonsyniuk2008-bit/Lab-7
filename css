@@ -1,0 +1,173 @@
+```css
+/* style.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #222;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 1.8rem;
+}
+
+.main-nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+}
+
+.main-nav a:hover {
+  color: #0077ff;
+}
+
+/* BUTTONS */
+
+.btn {
+  padding: 0.7rem 1.2rem;
+  border: none;
+  background: #0077ff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #005ed1;
+}
+
+.btn-cart {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* BURGER */
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* MAIN */
+
+.page-layout {
+  padding: 2rem;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+.products {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-card h3 {
+  margin: 1rem 0;
+}
+
+.product-card p {
+  margin-bottom: 1rem;
+}
+
+/* FOOTER */
+
+.footer {
+  background: white;
+  margin-top: 3rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.social-links a {
+  color: #222;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  color: #0077ff;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 768px) {
+
+  .header {
+    padding: 1rem;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .main-nav ul {
+    display: none;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .page-layout {
+    padding: 1rem;
+  }
+
+  .products {
+    justify-content: center;
+  }
+
+  .product-card {
+    width: 100%;
+  }
+
+}
+```
